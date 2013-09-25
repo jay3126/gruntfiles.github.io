@@ -1,0 +1,13 @@
+{
+  "name": "default",
+  "description": "default",
+  "version": "1.0.0",
+  "author": "Jonathan Fielding",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.2",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-cli": "~0.1.6",
+    "grunt-contrib-compass": "~0.5.0"
+  }
+}
