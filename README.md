@@ -1,7 +1,9 @@
 gruntfiles.github.io
 ====================
+Show us your Grunt Files! Lazy Web Request 131 [https://github.com/h5bp/lazyweb-requests/issues/131](https://github.com/h5bp/lazyweb-requests/issues/131)
 
-Show us your Grunt Files!
+### Grunt Examples:
+[https://github.com/sindresorhus/grunt-examples](https://github.com/sindresorhus/grunt-examples)
 
 ### RESOURCES:
 - [http://gruntjs.com](http://gruntjs.com)
