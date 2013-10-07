@@ -1,0 +1,3 @@
+.montage { background: url('spritesheet.png') no-repeat; width: 16px; height: 16px; }
+.montage.mario_jumping { background-position: 0px 0px; }
+.montage.mario_walking { background-position: -16px 0px; }
