@@ -1,4 +1,3 @@
-
 'use strict';
 
 var fs = require('fs'),
@@ -39,7 +38,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('dist-build', [
     'env:build',
-    'build',
     'test',
     'build',
     'copy',
