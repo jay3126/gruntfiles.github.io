@@ -14,20 +14,79 @@
         <!-- Mobile Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="apple-mobile-web-app-capable" content="yes">
+
+        <link rel="stylesheet" href="bower_components/typeplate/css/typeplate.css">
+        <style>
+            html {
+                background: #042029;
+                color: #809496;
+            }
+            body {
+                max-width: 325px;
+                margin: 2em auto;
+                width: 100%;
+            }
+            a {
+                color: #A57700;
+                text-decoration: none;
+            }
+            a:hover { text-decoration: underline; }
+            .list-reset {
+                list-style-type: none;
+                padding-left: 0;
+            }
+            .authors {
+                border: 4px solid #000;
+                border-radius: 6px;
+                padding: 24px;
+                background: #131416;
+            }
+            .authors li {
+                margin-bottom: 24px;
+            }
+            h1,h2,h3 { color: #809496; }
+            header[role="banner"] h1 {
+                color: white;
+                font-size: 36px;
+            }
+            header[role="banner"] h1 span { font-size: 16px; }
+            section h3 { font-size: 21px; }
+            .unicode-icon { color: #278BC7; }
+        </style>
     </head>
     <body>
+        
+        <section>
+            <header role="banner">
+                <h1>Gruntfiles! <span>Show us your setup!</span></h1>
+            </header>
 
-        <!-- Add your site or application content here -->
-        <h1>Gruntfiles!</h1>
-        <h2>Show us your Grunt Files!</h2>
-
-        <ul>
-            <li><a href="gruntfiles/integralist">Integralist</a></li>
-            <li><a href="gruntfiles/benfrain-play">Ben Frain</a></li>
-            <li><a href="gruntfiles/grayghostvisuals">Dennis Gaebel</a></li>
-            <li><a href="gruntfiles/jonthanfielding">Jonthan Fielding</a></li>
-            <li><a href="gruntfiles/jsoverson">Jarrod Overson</a></li>
-        </ul>
-
+            <ul class="authors list-reset">
+                <li>
+                    <h3>Integralist</h3>
+                    <div>
+                        <span class="unicode-icon">♠</span> <a href="gruntfiles/integralist/Gruntfile.js"><code>Gruntfile.js</code></a>
+                        <span class="unicode-icon">♠</span> <a href="gruntfiles/integralist/package.json"><code>package.json</code></a>
+                    </div>
+                </li><li>
+                    <h3>Ben Frain</h3>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/benfrain-play/Gruntfile.js"><code>Gruntfile.js</code></a>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/benfrain-play/package.json"><code>package.json</code></a>
+                </li><li>
+                    <h3>Dennis Gaebel</h3>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/grayghostvisuals/Gruntfile.js"><code>Gruntfile.js</code></a>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/grayghostvisuals/package.json"><code>package.json</code></a>
+                </li><li>
+                    <h3>Jonathan Fielding</h3>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/jonthanfielding/Gruntfile.js"><code>Gruntfile.js</code></a>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/jonthanfielding/package.json"><code>package.json</code></a>
+                </li><li>
+                    <h3>Jarrod Overson</h3>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/jsoverson/browserify-application/Gruntfile.js"><code>Gruntfile.js</code></a>
+                    <span class="unicode-icon">♠</span> <a href="gruntfiles/jsoverson/browserify-application/package.json"><code>package.json</code></a>
+                </li>
+            </ul>
+        </section>
+    
     </body>
 </html>
